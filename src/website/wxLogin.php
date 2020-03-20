@@ -1,9 +1,9 @@
 <?php
-namespace jzweb\open\weixin\website;
+namespace ninenight\open\weixin\website;
 
-use jzweb\open\weixin\lib\accessToken;
-use jzweb\open\weixin\lib\code;
-use jzweb\open\weixin\lib\user;
+use ninenight\open\weixin\lib\accessToken;
+use ninenight\open\weixin\lib\code;
+use ninenight\open\weixin\lib\user;
 
 /**
  * 网站应用-微信用户登录功能

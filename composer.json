@@ -1,5 +1,5 @@
 {
-  "name": "jzweb/wechat-open-api",
+  "name": "ninenight/wechat-open-api",
   "description": "微信开放平台接口",
   "type": "library",
   "authors": [
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "jzweb\\open\\weixin\\": "src/"
+      "ninenight\\open\\weixin\\": "src/"
     }
   }
 }

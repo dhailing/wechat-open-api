@@ -1,8 +1,8 @@
 <?php
-namespace jzweb\open\weixin\lib;
+namespace ninenight\open\weixin\lib;
 
 
-use jzweb\open\weixin\lib\core\http;
+use ninenight\open\weixin\lib\core\http;
 
 /**
  * 微信素材相关接口

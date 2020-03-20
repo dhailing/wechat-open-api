@@ -1,5 +1,5 @@
 <?php
-namespace jzweb\open\weixin\lib\wxBiz;
+namespace ninenight\open\weixin\lib\wxBiz;
 
 /**
  * error code 说明.

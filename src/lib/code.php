@@ -1,5 +1,5 @@
 <?php
-namespace jzweb\open\weixin\lib;
+namespace ninenight\open\weixin\lib;
 
 
 /**

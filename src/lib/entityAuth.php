@@ -1,10 +1,10 @@
 <?php
-namespace jzweb\open\weixin\lib;
+namespace ninenight\open\weixin\lib;
 
-use jzweb\open\weixin\lib\entity\auth\authorizedAuth;
-use jzweb\open\weixin\lib\entity\auth\ticketAuth;
-use jzweb\open\weixin\lib\entity\auth\unauthorizedAuth;
-use jzweb\open\weixin\lib\entity\auth\updateauthorizedAuth;
+use ninenight\open\weixin\lib\entity\auth\authorizedAuth;
+use ninenight\open\weixin\lib\entity\auth\ticketAuth;
+use ninenight\open\weixin\lib\entity\auth\unauthorizedAuth;
+use ninenight\open\weixin\lib\entity\auth\updateauthorizedAuth;
 
 /**
  * 微信授权实体对象

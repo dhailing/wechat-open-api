@@ -1,7 +1,7 @@
 <?php
-namespace jzweb\open\weixin\open;
+namespace ninenight\open\weixin\open;
 
-use jzweb\open\weixin\lib\component;
+use ninenight\open\weixin\lib\component;
 
 
 /**
@@ -140,7 +140,7 @@ class mpAuth
      * @param $component_access_token
      * @param int $offset
      * @param int $count
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function pullApiGetAuthorizerList($component_access_token, $offset = 0, $count = 100)
     {
@@ -152,7 +152,7 @@ class mpAuth
      *
      * @param $component_access_token
      * @param $appid
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function openCreate($component_access_token, $appid)
     {
@@ -164,7 +164,7 @@ class mpAuth
      *
      * @param $component_access_token
      * @param $appid
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function openBind($component_access_token, $appid, $open_appid)
     {
@@ -176,7 +176,7 @@ class mpAuth
      *
      * @param $component_access_token
      * @param $appid
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function openUnbind($component_access_token, $appid, $open_appid)
     {
@@ -188,7 +188,7 @@ class mpAuth
      *
      * @param $component_access_token
      * @param $appid
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function openGet($component_access_token, $appid)
     {

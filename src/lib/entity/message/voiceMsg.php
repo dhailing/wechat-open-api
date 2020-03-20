@@ -1,5 +1,5 @@
 <?php
-namespace jzweb\open\weixin\lib\entity\message;
+namespace ninenight\open\weixin\lib\entity\message;
 
 /**
  * 微信公众平台-消息-语音消息

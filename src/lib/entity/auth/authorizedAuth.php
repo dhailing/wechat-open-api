@@ -1,5 +1,5 @@
 <?php
-namespace jzweb\open\weixin\lib\entity\auth;
+namespace ninenight\open\weixin\lib\entity\auth;
 
 /**
  * 微信开放平台-授权成功通知-实体对象

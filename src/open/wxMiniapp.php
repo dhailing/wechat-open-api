@@ -1,10 +1,10 @@
 <?php
 
 
-namespace jzweb\open\weixin\open;
+namespace ninenight\open\weixin\open;
 
 
-use jzweb\open\weixin\lib\miniapp;
+use ninenight\open\weixin\lib\miniapp;
 
 class wxMiniapp
 {
@@ -20,7 +20,7 @@ class wxMiniapp
      *
      * @param string $component_access_token
      * @param array $params
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function createFastregisterweapp($component_access_token, $params)
     {
@@ -39,7 +39,7 @@ class wxMiniapp
      * 获取基本信息
      *
      * @param $access_token
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function getAccountBaseInfo($access_token)
     {
@@ -51,7 +51,7 @@ class wxMiniapp
      *
      * @param $access_token
      * @param $params
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function wxaModifyDomain($access_token, $params)
     {
@@ -70,7 +70,7 @@ class wxMiniapp
      *
      * @param $access_token
      * @param $params
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function wxaSetwebviewdomain($access_token, $params)
     {
@@ -86,7 +86,7 @@ class wxMiniapp
      *
      * @param $access_token
      * @param $params
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function wxaSetnickanme($access_token, $params)
     {
@@ -110,7 +110,7 @@ class wxMiniapp
      * 微信认证名称检测
      * @param $access_token
      * @param $params
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function checkwxverifynickname($access_token, $params)
     {
@@ -121,7 +121,7 @@ class wxMiniapp
      * 查询改名审核状态
      * @param $access_token
      * @param $params
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function apiWxaQuerynickanme($access_token, $params)
     {
@@ -132,7 +132,7 @@ class wxMiniapp
      * 修改头像
      * @param $access_token
      * @param $params
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function modifyheadimage($access_token, $params)
     {
@@ -150,7 +150,7 @@ class wxMiniapp
      * 修改功能介绍
      * @param $access_token
      * @param $params
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function modifysignature($access_token, $params)
     {
@@ -160,7 +160,7 @@ class wxMiniapp
     /**
      * 查询隐私设置
      * @param $access_token
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function getwxasearchstatus($access_token)
     {
@@ -171,7 +171,7 @@ class wxMiniapp
      * 修改隐私设置
      * @param $access_token
      * @param $params
-     * @return \jzweb\open\weixin\lib\core\mix
+     * @return \ninenight\open\weixin\lib\core\mix
      */
     public function changewxasearchstatus($access_token, $params)
     {

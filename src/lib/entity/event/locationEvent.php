@@ -1,5 +1,5 @@
 <?php
-namespace jzweb\open\weixin\lib\entity\event;
+namespace ninenight\open\weixin\lib\entity\event;
 
 /**
  * 微信公众平台-事件-上报地理位置事件

@@ -1,5 +1,5 @@
 <?php
-namespace jzweb\open\weixin\lib\wxBiz;
+namespace ninenight\open\weixin\lib\wxBiz;
 
 /**
  * 对公众平台发送给公众账号的消息加解密示例代码.

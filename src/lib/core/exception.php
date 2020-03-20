@@ -1,5 +1,5 @@
 <?php
-namespace jzweb\open\weixin\lib\core;
+namespace ninenight\open\weixin\lib\core;
 
 /**
  * 封装错误异常处理

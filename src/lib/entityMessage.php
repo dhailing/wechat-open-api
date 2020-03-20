@@ -1,19 +1,19 @@
 <?php
-namespace jzweb\open\weixin\lib;
+namespace ninenight\open\weixin\lib;
 
-use jzweb\open\weixin\lib\entity\event\clickEvent;
-use jzweb\open\weixin\lib\entity\event\locationEvent;
-use jzweb\open\weixin\lib\entity\event\scanEvent;
-use jzweb\open\weixin\lib\entity\event\subscribeEvent;
-use jzweb\open\weixin\lib\entity\event\unsubscribeEvent;
-use jzweb\open\weixin\lib\entity\event\viewEvent;
-use jzweb\open\weixin\lib\entity\message\linkMsg;
-use jzweb\open\weixin\lib\entity\message\locationMsg;
-use jzweb\open\weixin\lib\entity\message\picMsg;
-use jzweb\open\weixin\lib\entity\message\shortvideoMsg;
-use jzweb\open\weixin\lib\entity\message\textMsg;
-use jzweb\open\weixin\lib\entity\message\videoMsg;
-use jzweb\open\weixin\lib\entity\message\voiceMsg;
+use ninenight\open\weixin\lib\entity\event\clickEvent;
+use ninenight\open\weixin\lib\entity\event\locationEvent;
+use ninenight\open\weixin\lib\entity\event\scanEvent;
+use ninenight\open\weixin\lib\entity\event\subscribeEvent;
+use ninenight\open\weixin\lib\entity\event\unsubscribeEvent;
+use ninenight\open\weixin\lib\entity\event\viewEvent;
+use ninenight\open\weixin\lib\entity\message\linkMsg;
+use ninenight\open\weixin\lib\entity\message\locationMsg;
+use ninenight\open\weixin\lib\entity\message\picMsg;
+use ninenight\open\weixin\lib\entity\message\shortvideoMsg;
+use ninenight\open\weixin\lib\entity\message\textMsg;
+use ninenight\open\weixin\lib\entity\message\videoMsg;
+use ninenight\open\weixin\lib\entity\message\voiceMsg;
 
 /**
  * 微信消息实体对象

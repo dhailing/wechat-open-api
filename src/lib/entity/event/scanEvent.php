@@ -1,5 +1,5 @@
 <?php
-namespace jzweb\open\weixin\lib\entity\event;
+namespace ninenight\open\weixin\lib\entity\event;
 
 /**
  * 微信公众平台-事件-扫描带参数二维码事件-用户已关注时的事件推送
